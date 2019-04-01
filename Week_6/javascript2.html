@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+    <title>Login</title>
+    <meta name="description" content="Login Webpage" />
+
+    <style>
+    .flex{
+        display:flex;
+        padding-left: 10px;
+    }
+
+    .pad{
+        padding-right: 5px;
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <input type="text" id="num1">
+    <select id="operators">        
+        <option id="addition" value="+">+</option>        
+        <option id="subtraction" value="-">-</option>        
+        <option id="multiply" value="*">*</option>
+        <option id="device" value="/">/</option>
+    </select>    
+    <input type="text" id="num2">    
+    <p id="answer"></p>    
+    <button id="calculate">Calculate</button>    
+    
+    <script>        
+        var selectButton = document.getElementById("calculate");        
+        selectButton.onclick = ButtonClicked;        
+        
+        function ButtonClicked() {            
+            var currentOperator = document.getElementById("operators").value;            
+            
+            if (currentOperator == "+") {                
+                var num1input = parseInt(document.getElementById("num1").value);                
+                var num2input = parseInt(document.getElementById("num2").value);                
+                document.getElementById("answer").innerHTML = num1input + num2input;            
+            }            
+            
+            if (currentOperator == "-") {                
+                var num1input = parseInt(document.getElementById("num1").value);                
+                var num2input = parseInt(document.getElementById("num2").value);                
+                document.getElementById("answer").innerHTML = num1input - num2input;           
+            }           
+            
+            if (currentOperator == "*") {               
+                var num1input = parseInt(document.getElementById("num1").value);                
+                var num2input = parseInt(document.getElementById("num2").value);                
+                document.getElementById("answer").innerHTML = num1input * num2input;            
+            }            
+            
+            if (currentOperator == "/") {                
+                var num1input = parseInt(document.getElementById("num1").value);                
+                var num2input = parseInt(document.getElementById("num2").value);                
+                document.getElementById("answer").innerHTML = num1input / num2input;            
+            }        
+        }    
+        
+    </script>
+</body>
+
+
+
+</html>
