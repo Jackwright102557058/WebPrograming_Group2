@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+    <title>Login</title>
+    <meta name="description" content="Login Webpage" />
+    <link rel="stylesheet" type="text/css" href="todo.css">
+
+</head>
+
+<body>
+    <h1 class=title>TodoList</h1>
+    <div class="maindiv">
+        <div>
+            <input class="uinput" id="addinput" type="text" placeholder="New Item...">
+            <button class="addbutton" id="add">Add</button>
+            <button class="clearbutton" id="clear">Clear All</button>
+        </div>
+        <div>
+            <select id="operators" class="dropbox">
+                <option id="Sh" value="sh">Shopping</option>
+                <option id="hl" value="hl">Hit List</option>
+                <option id="mi" value="mi">Misc</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="flex">
+        <div class="onelist">
+            <h1>Shopping List</h1>
+            <div class="shdiv" id="shlist">
+
+            </div>
+        </div>
+
+        <div class="twolist">
+            <h1>Hit List</h1>
+            <div class="hldiv" id="hllist">
+        
+            </div>
+        </div>
+
+        <div class="threelist">
+            <h1>Misc</h1>
+            <div class="midiv" id="milist">
+            
+            </div>
+        </div>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+
+
+
+</html>

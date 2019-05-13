@@ -1,0 +1,54 @@
+.maindiv {
+    margin-left: 800px;
+    margin-top: 50px;
+}
+
+.onelist {
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.twolist {
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.threelist {
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+.flex {
+    display:flex;
+}
+
+.title {
+    margin-left: 900px;
+    margin-top: 50px;
+}
+
+.uinput {
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+}
+
+.addbutton {
+    border-style: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 40px;
+}
+
+.clearbutton {
+    margin-left: 5px;
+    border-style: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+}
+
+.dropbox {
+    height: 30px;
+    width: 325px;
+}
