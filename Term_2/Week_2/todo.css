@@ -40,6 +40,16 @@
     width: 40px;
 }
 
+.Xbutton {
+    border-style: none;
+    border-radius: 5px;
+    height: 25px;
+    width: 25px;
+    margin-top: 15px;
+    margin-left: 5px;
+    background-color: grey;
+}
+
 .clearbutton {
     margin-left: 5px;
     border-style: none;
